@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Popcornfactory</string>
+    <string name="welcome_text">Welcom to Popcorn, home of the best series and movies. Just lay dow, make some popcorn and enjoy!</string>
+    <string name="satart_button">Get me in!</string>
+    <string name="movies">Movies</string>
+    <string name="series">Series</string>
+</resources>
