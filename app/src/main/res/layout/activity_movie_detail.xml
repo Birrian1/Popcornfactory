@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/almosblack"
     tools:context=".MovieDetail">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/FilmImageDescription"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            />
+
+        <TextView
+            android:id="@+id/FilmNameDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/mustard"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/mustard"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="32dp"
+            />
+
+        <TextView
+            android:id="@+id/FilmSinopsisDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="14sp"
+            android:textColor="@color/mustard"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
