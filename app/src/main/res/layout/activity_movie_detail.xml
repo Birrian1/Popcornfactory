@@ -15,13 +15,13 @@
         >
 
         <ImageView
-            android:id="@+id/FilmImageDescription"
+            android:id="@+id/movie_header"
             android:layout_width="match_parent"
             android:layout_height="250dp"
             />
 
         <TextView
-            android:id="@+id/FilmNameDescription"
+            android:id="@+id/movie_title_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -42,7 +42,7 @@
             />
 
         <TextView
-            android:id="@+id/FilmSinopsisDescription"
+            android:id="@+id/movie_summary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -53,6 +53,27 @@
             android:layout_marginLeft="15dp"
             />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/buyTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buyTickets"
+        android:paddingHorizontal="@dimen/paddingButton"
+        android:textColor="@color/black"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grisclaro"
+        android:textStyle="italic"
+        android:layout_marginTop="7dp"
+        android:id="@+id/seatsLeft"
+        />
 
 
 </LinearLayout>
